@@ -1,0 +1,96 @@
+---
+title: "Soilpad analysis"
+author: "Jarad Niemi"
+date: "`r Sys.Date()`"
+output: 
+  html_document: 
+    toc: true
+---
+
+```{r create_soilpad, cache.extra=tools::md5sum("../data/weight_site_terrain.csv")}
+library("tidyverse")
+
+## Generate dataframe without RHO, the outlier
+soilpadRHO <- read_csv("../data/weight_site_terrain_nut.csv",
+                    col_types = cols(
+                      Diversion = col_character(),
+                      Pad = col_character()
+                    )) %>%
+  mutate(weight = weight + min(weight[weight>0], na.rm = TRUE) / 2, # minimum non-zero is 0.0003
+         wp_per_day    = weight/Days,
+         wp_per_precip = weight/Mppt,
+         # NA Diversion data occurred before Diversion experiment
+         # they are equivalent to NV, but to ease analyses, we will code them
+         # as notV
+         Diversion = ifelse(grepl("v", PadID, fixed=TRUE), "V", "NV"),
+         Diversion = ifelse(Year < 2020, "notV", Diversion),
+         Year = factor(Year),
+         Treatment = factor(Treatment, levels = c("strips","control")),
+         ln_ppt = log(Mppt)) %>%
+  filter(SiteID != "RHO")
+
+soilpadRHO$Position[soilpadRHO$SiteID == 'SLO' & soilpadRHO$Position == 'top'] <- "middle"
+
+## Generate dataframe with the full dataset
+soilpad <- read_csv("../data/weight_site_terrain_nut.csv",
+                    col_types = cols(
+                      Diversion = col_character(),
+                      Pad = col_character()
+                    )) %>%
+  mutate(weight = weight + min(weight[weight>0], na.rm = TRUE) / 2, # minimum non-zero is 0.0003
+         wp_per_day    = weight/Days,
+         wp_per_precip = weight/Mppt,
+         # NA Diversion data occurred before Diversion experiment
+         # they are equivalent to NV, but to ease analyses, we will code them
+         # as notV
+         Diversion = ifelse(grepl("v", PadID, fixed=TRUE), "V", "NV"),
+         Diversion = ifelse(Year < 2020, "notV", Diversion),
+         Year = factor(Year),
+         Treatment = factor(Treatment, levels = c("strips","control")),
+         ln_ppt = log(Mppt))
+
+soilpad$Position[soilpad$SiteID == 'SLO' & soilpad$Position == 'top'] <- "middle"
+
+soilpad_f <- soilpad %>%
+  subset(flume == "C")
+
+
+## Generate dataframe with randomized location subset
+soilpadR <- read_csv("../data/weight_site_terrain_nut.csv",
+                    col_types = cols(
+                      Diversion = col_character(),
+                      Pad = col_character()
+                    )) %>%
+  mutate(weight = weight + min(weight[weight>0], na.rm = TRUE) / 2, # minimum non-zero is 0.0003
+         wp_per_day    = weight/Days,
+         wp_per_precip = weight/Mppt,
+         # NA Diversion data occurred before Diversion experiment
+         # they are equivalent to NV, but to ease analyses, we will code them
+         # as notV
+         Diversion = ifelse(grepl("v", PadID, fixed=TRUE), "V", "NV"),
+         Diversion = ifelse(Year < 2020, "notV", Diversion),
+         Year = factor(Year),
+         Treatment = factor(Treatment, levels = c("strips","control")),
+         ln_ppt = log(Mppt)) %>%
+  filter(!(SiteID %in% c("WHI","GUT","NYK","SMI","SLO","RDM","ARM","STN"))) 
+
+## Generate dataframe without randomized locations
+soilpadNR <- read_csv("../data/weight_site_terrain_nut.csv",
+                    col_types = cols(
+                      Diversion = col_character(),
+                      Pad = col_character()
+                    )) %>%
+  mutate(weight = weight + min(weight[weight>0], na.rm = TRUE) / 2, # minimum non-zero is 0.0003
+         wp_per_day    = weight/Days,
+         wp_per_precip = weight/Mppt,
+         # NA Diversion data occurred before Diversion experiment
+         # they are equivalent to NV, but to ease analyses, we will code them
+         # as notV
+         Diversion = ifelse(grepl("v", PadID, fixed=TRUE), "V", "NV"),
+         Diversion = ifelse(Year < 2020, "notV", Diversion),
+         Year = factor(Year),
+         Treatment = factor(Treatment, levels = c("strips","control")),
+         ln_ppt = log(Mppt)) %>%
+  filter(!(SiteID %in% c("EIA","WOR","RHO","MCN")))
+
+```

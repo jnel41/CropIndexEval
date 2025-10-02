@@ -1,0 +1,686 @@
+"mrulename"|""
+"AGR - Air Quality; PM10 (TX)"|124684
+"AGR - Air Quality; PM2_5 (TX)"|124585
+"AGR - Aronia Berry Suitability (SD)"|104541
+"AGR - Farmland of Statewide Importance (TX)"|1910
+"AGR - Index for alfalfa hay, irrigated (NV)"|435262
+"AGR - Nitrate Leaching Potential, Nonirrigated (MA)"|54921
+"AGR - Orchard Groups (TX)"|1744
+"AGR - Rangeland Grass/Herbaceous Productivity Index (TX)"|766
+"AGR - Rutting Hazard > 10,000 Pounds per Wheel (TX)"|812
+"AGR - Water Erosion Potential (TX)"|195601
+"AGR - Wine Grape Site Suitability (WA)"|243307
+"AGR-Natural Fertility (ND)"|145530
+"AGR-Subsurface Salinity (ND)"|74661
+"AWM - Filter Group (OH)"|79356
+"AWM - Irrigation Disposal of Wastewater"|5568510
+"AWM - Land Application of Dry and Slurry Manure (TX)"|2111
+"AWM - Land Application of Municipal Biosolids, winter (OR)"|126033
+"AWM - Overland Flow Process Treatment of Wastewater"|5143052
+"AWM - Rapid Infiltration Disposal of Wastewater"|4609628
+"AWM - Vegetated Treatment Area (PIA)"|10771
+"AWM - Waste Field Storage Area (VT)"|19360
+"BLM - Mechanical Treatment, Shredder"|575422
+"BLM - Medusahead Invasion Susceptibility"|1340209
+"BLM - Soil Compaction Resistance"|2234440
+"Capping Fill Gravity Septic System (DE)"|28218
+"CLASS RULE - Depth to any bedrock kind (5 classes) (NPS)"|633
+"CPI - Alfalfa Hay, IRR - Eastern Idaho Plateaus (ID)"|38125
+"CPI - Alfalfa Hay, IRR - Klamath Valley and Basins (OR)"|137453
+"CPI - Alfalfa Hay, IRR - Snake River Plains (ID)"|15453
+"CPI - Alfalfa Hay, NIRR- Eastern Idaho Plateaus (ID)"|48045
+"CPI - Grass Hay, NIRR - Palouse, Northern Rocky Mtns. (WA)"|144966
+"CPI - Small Grains Productivity Index (AK)"|106796
+"DHS - Catastrophic Event, Large Animal Mortality, Incinerate"|3267862
+"DHS - Emergency Land Disposal of Milk"|4154524
+"DHS - Site for Composting Facility - Subsurface"|6384591
+"DHS - Suitability for Clay Liner Material"|6395040
+"ENG - Cohesive Soil Liner (MN)"|74461
+"ENG - Construction Materials - Sand Source (MN)"|141998
+"ENG - Construction Materials; Gravel Source (CT)"|13251
+"ENG - Construction Materials; Gravel Source (NY)"|151314
+"ENG - Construction Materials; Reclamation (DE)"|10291
+"ENG - Construction Materials; Roadfill"|4586948
+"ENG - Construction Materials; Roadfill (AK)"|75937
+"ENG - Construction Materials; Sand Source (NY)"|151319
+"ENG - Construction Materials; Sand Source (VT)"|23869
+"ENG - Construction Materials; Topsoil (AK)"|79410
+"ENG - Construction Materials; Topsoil (DE)"|8306
+"ENG - Construction Materials; Topsoil (MI)"|117274
+"ENG - Construction Materials; Topsoil (OR)"|135431
+"ENG - Conventional On-Site Septic Systems (TN)"|41891
+"ENG - Deep Infiltration Systems"|4998872
+"ENG - Disposal Field Gravity (DE)"|24984
+"ENG - Dwellings With Basements (OH)"|123459
+"ENG - Ground-based Solar Arrays, Ballast Anchor Systems"|4814659
+"ENG - Large Animal Disposal, Trench (CT)"|21276
+"ENG - Lawn, Landscape, Golf Fairway (MI)"|108905
+"ENG - Lawn, Landscape, Golf Fairway (VT)"|28010
+"ENG - Sanitary Landfill (Area) (OH)"|114835
+"ENG - Sanitary Landfill (Trench)"|4790270
+"ENG - Sanitary Landfill (Trench) (AK)"|91918
+"ENG - Septage Application - Surface (MN)"|151579
+"ENG - Septic Tank Absorption Fields - At-Grade (MN)"|127014
+"ENG - Septic Tank Absorption Fields - Mound (MN)"|137211
+"ENG - Septic Tank Leaching Chamber (TX)"|76171
+"ENG - Septic Tank, Subsurface Drip Irrigation (TX)"|96792
+"ENG - Shallow Excavations"|5113083
+"ENG - Shallow Infiltration Systems"|4759426
+"ENG - Small Commercial Buildings"|3265085
+"ENG - Soil Potential of Road Salt Applications (CT)"|23930
+"ENG - Source of Caliche (TX)"|163852
+"ENG - Stormwater Management / Ponds (NY)"|117355
+"ENG - Unlined Retention Systems"|5155147
+"Farm and Garden Composting Facility - Surface"|5497526
+"FOR - Biomass Harvest (MA)"|12236
+"FOR - Black Walnut Suitability Index (KS)"|71722
+"FOR - Displacement Potential (WA)"|113798
+"FOR - Drought Vulnerable Soils"|5956972
+"FOR - General Harvest Season (ME)"|19602
+"FOR - Harvest Equipment Operability"|4135015
+"FOR - Mechanical Site Preparation (Deep) (MD)"|22440
+"FOR - Mechanical Site Preparation (Surface)"|2392748
+"FOR - Mechanical Site Preparation; Deep (CT)"|7151
+"FOR - Potential Erosion Hazard (Road/Trail)"|2848743
+"FOR - Potential Fire Damage Hazard"|3014446
+"FOR - Potential Seedling Mortality"|2891756
+"FOR - Potential Seedling Mortality (MI)"|61524
+"FOR - Potential Windthrow Hazard (ME)"|18748
+"FOR - Potential Windthrow Hazard (MI)"|54934
+"FOR - Road Suitability (Natural Surface) (ID)"|69798
+"FOR - Rutting Hazard by Month"|665272
+"FOR - Windthrow Hazard (WA)"|47307
+"FOTG - NLI Interp Calculation - (IN)"|20667
+"Fragile Soil Index"|6172947
+"GRL - Juniper Encroachment Potential (NM)"|598040
+"GRL - NV range seeding (Wind C = 20) (NV)"|232997
+"GRL - Pasture and Hayland SG (OH)"|78681
+"GRL - Rangeland Prescribed Burning (TX)"|129589
+"GRL - Rangeland Soil Seed Bank Suitability (NM)"|108112
+"GRL-FSG-NP-W (MT)"|188396
+"GRL-SHSI Soil Health Sustainability Index (MT)"|236311
+"Ground-based Solar Arrays_saturationt(ME)"|17300
+"Ground-based Solar Arrays_slope(ME)"|17369
+"Inland Wetlands (CT)"|3668
+"IRR-restrictive features for irrigation (OH)"|186017
+"MIL - Excavations for Vehicle Fighting Position (DOD)"|4313781
+"MIL - Trafficability Veh. Type 1 1-pass wet season (DOD)"|5181554
+"MIL - Trafficability Veh. Type 2 dry season (DOD)"|3538451
+"MIL - Trafficability Veh. Type 3 50-passes wet season (DOD)"|5049370
+"MIL - Trafficability Veh. Type 6 1-pass wet season (DOD)"|5418972
+"MIL - Trafficability Veh. Type 6 dry season (DOD)"|3236734
+"Muscadine Wine Grape Site Desirability (Very Long)"|784162
+"Natural Soil Groups (CT)"|3668
+"NCCPI - NCCPI Cotton Submodel (II)"|131400
+"Permafrost Sensitivity (AK)"|51324
+"PFAS - Chemical Attenuation in Soils"|5646927
+"Pressure Dose Capping Fill Septic System (DE)"|27622
+"REC - Camp Areas (CT)"|15171
+"REC - Off-Road Motorcycle Trails (CT)"|11264
+"SAS - CMECS Substrate Class"|63165
+"SAS - CMECS Substrate Subclass/Group"|63165
+"SAS - Eelgrass Restoration Suitability"|100598
+"SAS - Land Utilization of Dredged Materials"|74633
+"SAS - Northern Quahog (Hard Clam) Habitat Suitability"|89269
+"Septic System At Grade Shallow Field (alternative) (WV)"|19563
+"AGR - Barley Yield (MT)"|200484
+"AGR - Conventional Tillage (TX)"|1392
+"AGR - Grape non-irrigated (MO)"|160856
+"AGR - Industrial Hemp for Fiber and Seed Production"|6669266
+"AGR - Nitrate Leaching Potential, Irrigated (WA)"|1010029
+"AGR - No Till, Tile Drained (TX)"|1392
+"AGR - Pasture hayland (MO)"|27618
+"AGR - Pesticide Loss Potential-Soil Surface Runoff"|968010
+"AGR - Plant Growth Index PGI no Climate Adj. (TX)"|2298
+"AGR - Prime Farmland (TX)"|188995
+"AGR - Spring Wheat Yield (MT)"|200484
+"AGR - Water Erosion Potential Wide Ratings Array (TX)"|1912
+"AGR - Wind Erosion Potential Wide Ratings Array (TX)"|2153
+"AGR-Agronomic Concerns (ND)"|107494
+"AGR-Pesticide and Nutrient Leaching Potential, NIRR (ND)"|222188
+"AGR-SHSI Soil Health Sustainability Index (MT)"|157644
+"AGR-Surface Salinity (ND)"|62758
+"AGR-Water Erosion Potential (ND)"|273477
+"Alaska Exempt Wetland Potential (AK)"|97040
+"American Wine Grape Varieties Site Desirability (Short)"|1016496
+"AWM - Irrigation Disposal of Wastewater (MD)"|49254
+"AWM - Manure and Food Processing Waste (DE)"|11278
+"AWM - Manure Stacking - Site Evaluation (TX)"|137478
+"AWM - Phosphorus Management (TX)"|122067
+"AWM - Slow Rate Process Treatment of Wastewater"|5313518
+"BLM - Pygmy Rabbit Habitat Potential"|1520033
+"BLM - Rangeland Tillage"|1234893
+"BLM - Site Degradation Susceptibility"|769256
+"CA Prime Farmland (CA)"|103525
+"CLASS RULE - Depth to root limiting layer (5 classes) (NPS)"|633
+"Commodity Crop Productivity Index (Corn) (TN)"|29004
+"CPI - Alfalfa Hay, NIRR - Palouse, Northern Rocky Mtns. (ID)"|30802
+"CPI - Barley, NIRR - Eastern Idaho Plateaus (ID)"|48030
+"CPI - Grass Hay, IRR - Eastern Idaho Plateaus (ID)"|37348
+"CPI - Grass Hay, NIRR - Palouse, Northern Rocky Mtns. (ID)"|15411
+"CPI - Potatoes, IRR - Snake River Plains (ID)"|15922
+"CPI - Small Grains, NIRR - Palouse Prairies (OR)"|190342
+"CPI - Small Grains, NIRR - Palouse Prairies (WA)"|166306
+"CPI - Small Grains, NIRR - Snake River Plains (ID)"|18545
+"CPI - Wheat, NIRR - Eastern Idaho Plateaus (ID)"|48030
+"CPI - Wild Hay, NIRR - Eastern Idaho Plateaus (ID)"|39711
+"CPI - Wild Hay, NIRR - Palouse, Northern Rocky Mtns. (ID)"|26090
+"CPI - Wild Hay, NIRR - Palouse, Northern Rocky Mtns. (WA)"|133979
+"Deep Infiltration Systems"|177719
+"DHS - Site for Composting Facility - Surface"|5919838
+"Elevated Sand Mound Septic System (DE)"|25784
+"ENG - Animal Disposal by Composting (Catastrophic) (WV)"|82520
+"ENG - Application of Municipal Sludge (TX)"|1163
+"ENG - Closed-Loop Horizontal Geothermal Heat Pump (CT)"|12838
+"ENG - Construction Materials; Gravel Source (IN)"|61848
+"ENG - Construction Materials; Gravel Source (NE)"|115215
+"ENG - Construction Materials; Reclamation (MD)"|45903
+"ENG - Construction Materials; Reclamation (MI)"|175152
+"ENG - Construction Materials; Roadfill (GA)"|15185
+"ENG - Construction Materials; Sand Source (CT)"|13768
+"ENG - Construction Materials; Sand Source (GA)"|20532
+"ENG - Construction Materials; Topsoil (ID)"|104291
+"ENG - Construction Materials; Topsoil (OH)"|186051
+"ENG - Daily Cover for Landfill (OH)"|164065
+"ENG - Disposal Field (NJ)"|18308
+"ENG - Disposal Field Type Inst (NJ)"|18623
+"ENG - Dwellings W/O Basements"|3059887
+"ENG - Dwellings With Basements"|3162925
+"ENG - Dwellings without Basements (AK)"|74971
+"ENG - Lawn and Landscape (OH)"|168646
+"ENG - Lawn, Landscape, Golf Fairway"|5178145
+"ENG - Local Roads and Streets (AK)"|91878
+"ENG - Local Roads and Streets (GA)"|17877
+"ENG - On-Site Waste Water Lagoons (MO)"|109851
+"ENG - OSHA Soil Types (TX)"|1302
+"ENG - Pier Beam Building Foundations (TX)"|133430
+"ENG - Sanitary Landfill (Area)"|3982522
+"ENG - Sanitary Landfill (Area) (AK)"|80338
+"ENG - Septage Application - Incorporation or Injection (MN)"|112602
+"ENG - Septic System; Disinfection, Surface Application (TX)"|86108
+"ENG - Septic Tank Absorption Fields (FL)"|51019
+"ENG - Septic Tank Absorption Fields (OH)"|135024
+"ENG - Septic Tank Absorption Fields - Trench (MN)"|166144
+"ENG - Sewage Lagoons (AK)"|100311
+"ENG - Shallow Excavations (OH)"|138976
+"ENG - Soil Suitability for SLAMM Marsh Migration (CT)"|19862
+"ENG - Stormwater Management / Infiltration (NY)"|137158
+"ENG - Stormwater Management / Wetlands (NY)"|128185
+"FOR - Black Walnut Suitability (WI)"|168153
+"FOR - Black Walnut Suitability (WV)"|29253
+"FOR - Construction Limitations for Haul Roads/Log Landings"|4262909
+"FOR - Displacement Hazard"|1001899
+"FOR - Harvest Equipment Operability (DE)"|6289
+"FOR - Harvest Equipment Operability (ME)"|19022
+"FOR - Harvest Equipment Operability (MI)"|80271
+"FOR - Log Landing Suitability (ID)"|69798
+"FOR - Log Landing Suitability (MI)"|96389
+"FOR - Log Landing Suitability (OR)"|91081
+"FOR - Mechanical Planting Suitability (OH)"|116101
+"FOR - Mechanical Site Preparation (Surface) (MD)"|22737
+"FOR - Mechanical Site Preparation (Surface) (OH)"|84024
+"FOR - Mechanical Site Preparation; Surface (CT)"|7220
+"FOR - Potential Erosion Hazard (Off-Road/Off-Trail) (MI)"|72204
+"FOR - Potential Erosion Hazard (Off-Road/Off-Trail) (OH)"|107392
+"FOR - Potential Seedling Mortality (FL)"|17596
+"FOR - Potential Seedling Mortality (OH)"|107996
+"FOR - Road Suitability (Natural Surface) (VT)"|20396
+"FOR - Soil Rutting Hazard"|2626935
+"FOTG - Indiana Soy Bean Yield Calculation (IN)"|80569
+"FOTG - Indiana Wheat Yield Calculation (IN)"|102828
+"FOTG - NLI report Calculation - (IN)"|20667
+"GRL - Fencing, Post Depth =<24 inches"|4946548
+"GRL - Fencing, Post Depth Less Than 24 inches (TX)"|202896
+"GRL - Fencing, Post Depth Less Than 36 inches (TX)"|204663
+"GRL - NV range seeding (Wind C = 10) (NV)"|232996
+"GRL - NV range seeding (Wind C = 30) (NV)"|233458
+"GRL - Rangeland Chaining (TX)"|72156
+"GRL - Rangeland Disking (TX)"|91412
+"GRL - Rangeland Dozing/Grubbing (TX)"|88981
+"GRL - Utah Juniper Encroachment Potential"|829228
+"GRL - Western Juniper Encroachment Potential (OR)"|766758
+"Ground-based Solar Arrays_bedrock_slope_anchor(ME)"|27972
+"Ground-based Solar Arrays_saturation_flooding_Frost(ME)"|17058
+"Hybrid Wine Grape Varieties Site Desirability (Medium)"|1314719
+"Lined Retention Systems"|381161
+"MIL - Trafficability Veh. Type 1 dry season (DOD)"|3538451
+"AGR - Avocado Root Rot Hazard (CA)"|502804
+"AGR - California Revised Storie Index (CA)"|832398
+"AGR - Hops Site Suitability (WA)"|259875
+"AGR - Map Unit Cropland Productivity (MN)"|43529
+"AGR - Nitrate Leaching Potential, Nonirrigated (WA)"|677289
+"AGR - No Till (TX)"|134383
+"AGR - Pesticide Loss Potential-Soil Surface Runoff (NE)"|137303
+"AGR - Plant Growth Index PGI with Climate Adj. (TX)"|2298
+"AGR - Plant Growth Index PGI with Climate Adj. MAP,MAAT (TX)"|2298
+"AGR - Ridge Till (TX)"|1511
+"AGR - Selenium Leaching Potential (CO)"|4778
+"AGR - Water Erosion Potential (NE)"|102616
+"AGR - Wind Erosion Potential (TX)"|221200
+"AGR - Winter Wheat Yield (MT)"|200484
+"AGR-Pesticide and Nutrient Runoff Potential (ND)"|87931
+"AGR-Rooting Depth (ND)"|85011
+"American Wine Grape Varieties Site Desirability (Long)"|967141
+"American Wine Grape Varieties Site Desirability (Medium)"|1211543
+"American Wine Grape Varieties Site Desirability (Very Long)"|813221
+"AWM - Animal Mortality Disposal (Catastrophic) (MO)"|84506
+"AWM - Irrigation Disposal of Wastewater (OH)"|212179
+"AWM - Irrigation Disposal of Wastewater (VT)"|40839
+"AWM - Land Application of Municipal Biosolids, summer (OR)"|92797
+"AWM - Manure and Food Processing Waste (MD)"|48786
+"AWM - Manure and Food Processing Waste (OH)"|215189
+"AWM - Overland Flow Process Treatment of Wastewater (VT)"|35051
+"AWM - Rapid Infil Disposal of Wastewater (DE)"|9144
+"AWM - Sensitive Soil Features (MN)"|100108
+"AWM - Sensitive Soil Features (WI)"|39190
+"BLM - Fencing"|1362972
+"BLM - Fire Damage Susceptibility"|1199510
+"BLM - Mechanical Treatment, Rolling Drum"|684349
+"BLM - Rangeland Drill"|994289
+"BLM - Rangeland Seeding, Colorado Plateau Ecoregion"|386367
+"BLM - Rangeland Seeding, Great Basin Ecoregion"|412805
+"BLM-Reclamation Suitability (MT)"|192816
+"CLASS RULE - Depth to lithic bedrock (5 classes) (NPS)"|633
+"CLASS RULE - Soil Inorganic Carbon kg/m2 to 2m (NPS)"|2957
+"CLASS RULE - Soil Organic Carbon kg/m2 to 2m (NPS)"|2957
+"CLR-pastureland limitation (IN)"|79790
+"Commodity Crop Productivity Index (Soybeans) (TN)"|29004
+"CPI - Alfalfa Hay, NIRR - Palouse, Northern Rocky Mtns. (WA)"|148839
+"CPI - Barley, IRR - Eastern Idaho Plateaus (ID)"|37340
+"CPI - Grass Hay, IRR - Klamath Valleys and Basins (OR)"|133670
+"CPI - Small Grains, IRR - Snake River Plains (ID)"|15509
+"CPI - Wheat, IRR - Eastern Idaho Plateaus (ID)"|38711
+"CZSS - Salinization due to Coastal Saltwater Inundation (CT)"|62179
+"DHS - Catastrophic Event, Large Animal Mortality, Burial"|3834360
+"DHS - Catastrophic Mortality, Large Animal Disposal, Pit"|4531183
+"DHS - Catastrophic Mortality, Large Animal Disposal, Trench"|4448863
+"DHS - Potential for Radioactive Bioaccumulation"|3703745
+"DHS - Potential for Radioactive Sequestration"|4235525
+"DHS - Suitability for Composting Medium and Final Cover"|4758969
+"ENG - Construction Materials; Gravel Source"|3669754
+"ENG - Construction Materials; Gravel Source (AK)"|70453
+"ENG - Construction Materials; Gravel Source (ID)"|68432
+"ENG - Construction Materials; Gravel Source (OH)"|180241
+"ENG - Construction Materials; Gravel Source (VT)"|24443
+"ENG - Construction Materials; Gravel Source (WA)"|90677
+"ENG - Construction Materials; Roadfill (OH)"|160820
+"ENG - Construction Materials; Sand Source (OR)"|103397
+"ENG - Construction Materials; Sand Source (WA)"|90651
+"ENG - Construction Materials; Topsoil (GA)"|25236
+"ENG - Construction Materials; Topsoil (MD)"|39181
+"ENG - Daily Cover for Landfill"|4872163
+"ENG - Daily Cover for Landfill (AK)"|92807
+"ENG - Disposal Field Suitability Class (NJ)"|18623
+"ENG - Dwellings W/O Basements (OH)"|119505
+"ENG - Dwellings with Basements (AK)"|74932
+"ENG - Large Animal Disposal, Pit (CT)"|20614
+"ENG - Lawn, landscape, golf fairway (CT)"|13755
+"ENG - Lined Retention Systems"|5778715
+"ENG - Local Roads and Streets (OH)"|153578
+"ENG - On-Site Waste Water Absorption Fields (MO)"|101916
+"ENG - Septic Tank Absorption Fields"|3805361
+"ENG - Septic Tank Absorption Fields (MD)"|31138
+"ENG - Septic Tank Absorption Fields (TX)"|76171
+"ENG - Septic Tank, Gravity Disposal (TX)"|76171
+"ENG - Sewage Lagoons"|4104719
+"ENG - Small Commercial Buildings (OH)"|123869
+"ENG - Soil Potential Ratings of SSDS (CT)"|4450
+"FOR (USFS) - Road Construction/Maintenance (Natural Surface)"|4538511
+"FOR - Aspen Productivity Index (MN)"|52373
+"FOR - Compaction Potential (WA)"|113234
+"FOR - Conservation Tree/Shrub Groups (MT)"|192935
+"FOR - Damage by Fire (OH)"|156235
+"FOR - General Harvest Season (VT)"|16737
+"FOR - Hand Planting Suitability"|3005565
+"FOR - Hand Planting Suitability, MO13 (DE)"|6375
+"FOR - Hand Planting Suitability, MO13 (MD)"|27408
+"FOR - Log Landing Suitability"|4698466
+"FOR - Log Landing Suitability (ME)"|24399
+"FOR - Log Landing Suitability (VT)"|20396
+"FOR - Log Landing Suitability (WA)"|100936
+"FOR - Mechanical Planting Suitability (CT)"|10682
+"FOR - Mechanical Planting Suitability, MO13 (MD)"|31491
+"FOR - Mechanical Site Preparation (Deep)"|2368577
+"FOR - Mechanical Site Preparation (Deep) (DE)"|4999
+"FOR - Mechanical Site Preparation (Surface) (DE)"|5037
+"FOR - Mechanical Site Preparation (Surface) (MI)"|53065
+"FOR - Mechanical Site Preparation; Surface (ME)"|19024
+"FOR - Potential Erosion Hazard, Road/Trail, Spring Thaw (AK)"|48812
+"FOR - Potential Seedling Mortality (PIA)"|9844
+"FOR - Potential Seedling Mortality(ME)"|19974
+"FOR - Puddling Hazard"|983508
+"FOR - Road Suitability (Natural Surface) (ME)"|24399
+"FOR - Road Suitability (Natural Surface) (WA)"|100936
+"FOR - Soil Rutting Hazard (OH)"|79401
+"FOR - Soil Sustainability Forest Biomass Harvesting (CT)"|22071
+"FOR - White Oak Suitability (MO)"|114144
+"FOR-Biomass Harvest (WI)"|52960
+"FOTG - Indiana Corn Yield Calculation (IN)"|80569
+"GRL - Excavations to 24 inches for Plastic Pipelines (TX)"|182221
+"GRL - Fencing, 24 inch Post Depth (MT)"|388669
+"GRL - NV range seeding (Wind C = 100) (NV)"|237432
+"GRL - NV range seeding (Wind C = 40) (NV)"|233499
+"GRL - NV range seeding (Wind C = 60) (NV)"|234380
+"GRL - NV range seeding (Wind C = 80) (NV)"|237432
+"GRL - NV range seeding (Wind C >= 160) (NV)"|245501
+"GRL - Rangeland Planting by Mechanical Seeding (TX)"|164021
+"GRL - Rangeland Root Plowing (TX)"|91412
+"Septic System At-Grade Bed (Alternate) (PA)"|84688
+"Septic System CO-OP RFS III w/Drip Irrigation (PA)"|75063
+"Septic System Drip Irrigation (alternative) (WV)"|17742
+"Septic System Free Access Sand Filterw/Spray Irrigation (PA)"|69784
+"Septic System Peat Based Option1 w/At-Grade Bed (Alt.) (PA)"|81368
+"Septic System Spray Irrigation (PA)"|69784
+"Septic System Steep Slope Sand Mound (Alternate) (PA)"|92462
+"Shallow Infiltration Systems"|297492
+"SOH - Soil Surface Sealing"|3311397
+"TROP - Plantains Productivity"|27345
+"URB - Rural Residential Development on Concrete Slab (TX)"|1616
+"URB/REC - Camp Areas (GA)"|17736
+"URB/REC - Camp Areas (MI)"|107459
+"URB/REC - Golf Fairways (OH)"|168646
+"URB/REC - Off-Road Motorcycle Trails"|4019724
+"URB/REC - Paths and Trails (MI)"|88224
+"URB/REC - Playgrounds (OH)"|183931
+"Vinifera Wine Grape Site Desirability (Long to Medium)"|1049714
+"WAQ - Soil Pesticide Absorbed Runoff Potential (TX)"|1302
+"WLF - Chufa for Turkey Forage (LA)"|48755
+"WLF - Food Plots for Upland Wildlife < 2 Acres (TX)"|2272
+"WLF - Freshwater Wetland Plants (TX)"|135170
+"WLF - Irrigated Saline Water Wetland Plants (TX)"|236726
+"WLF - Riparian Herbaceous Plants (TX)"|181689
+"WLF - Riparian Shrubs, Vines, & Trees (TX)"|119539
+"WLF - Saline Water Wetland Plants (TX)"|215359
+"WLF - Upland Mixed Deciduous & Coniferous Trees (TX)"|130241
+"WMS - Constructing Grassed Waterways (TX)"|102182
+"WMS - Constructing Terraces and Diversions (OH)"|170439
+"WMS - Embankments, Dikes, and Levees (VT)"|23834
+"WMS - Irrigation, Sprinkler (close spaced outlet drops)"|4970914
+"WMS - Irrigation, Surface (graded)"|5904158
+"WMS - Subsurface Drains - Installation (VT)"|16217
+"WMS - Subsurface Drains < 3 Feet Deep (TX)"|1028
+"WMS - Subsurface Drains > 3 Feet Deep (TX)"|1028
+"WMS - Subsurface Water Management, System Performance"|4139024
+"WMS - Surface Drains (TX)"|193354
+"WMS - Surface Irrigation Intake Family (TX)"|172411
+"MIL - Trafficability Veh. Type 3 1-pass wet season (DOD)"|5049370
+"MIL - Trafficability Veh. Type 3 dry season (DOD)"|3003475
+"MIL - Trafficability Veh. Type 4 dry season (DOD)"|3003379
+"MIL - Trafficability Veh. Type 5 1-pass wet season (DOD)"|5217291
+"NCCPI - NCCPI Corn Submodel (I)"|874700
+"NCCPI - NCCPI Small Grains Submodel (II)"|1069633
+"NCCPI - NCCPI Soybeans Submodel (I)"|876208
+"Peony Flowers Site Suitability (AK)"|104693
+"PFAS - Movement Classes in Soils"|2588602
+"Pressure Dose Full Depth Septic System (DE)"|29909
+"REC - Camp Areas; Primitive (AK)"|71827
+"REC - Paths and Trails (CT)"|11546
+"Salinity Risk Index (ND)"|553292
+"SAS - Eastern Oyster Habitat Restoration Suitability"|113757
+"SAS - Mooring Anchor - Mushroom"|93250
+"Septic System CO-OP RFS III w/At-Grade Bed (PA)"|76239
+"Septic System Free Access Sand Filter w/At-Grade Bed (PA)"|79130
+"Septic System Modified Subsurface Sand Filter (Alt.) (PA)"|117058
+"Septic System Shallow In Ground Trench (conventional) (WV)"|19746
+"Septic System Subsurface Sand Filter Bed (conventional) (PA)"|121510
+"Septic System Subsurface Sand Filter Trench (standard) (PA)"|121495
+"SOH - Limitations for Aerobic Soil Organisms"|6613374
+"URB - Commercial Brick Buildings w/Concrete Slab (TX)"|1424
+"URB - Commercial Metal Bldg; w/Concrete Slab (TX)"|1424
+"URB - Concrete Driveways and Sidewalks (TX)"|125878
+"URB - Concrete Driveways and Sidewalks2 (TX)"|1244
+"URB - Dwellings on Concrete Slab (TX)"|128819
+"URB - Dwellings With Basements (TX)"|1278
+"URB - Dwellings With Basements2 (TX)"|1278
+"URB - Lawns and Ornamental Plantings (TX)"|195487
+"URB - Rural Residential Development w/Basement (TX)"|1621
+"URB - Urban Residential Development w/Basement (TX)"|1471
+"URB/REC - Paths and Trails"|4110411
+"URB/REC - Paths and Trails (GA)"|13487
+"URB/REC - Playgrounds (MI)"|121769
+"Vinifera Wine Grape Site Desirability (Long)"|1177658
+"WAQ - Soil Pesticide Leaching Potential (TX)"|1570
+"WLF - Crawfish Aquaculture (TX)"|260627
+"WLF - Desertic Herbaceous Plants (TX)"|152556
+"WLF - Gopher Tortoise Burrowing Suitability"|170606
+"WLF - Grain & Seed Crops for Food and Cover (TX)"|201648
+"WMS - Constructing Grassed Waterways (OH)"|170561
+"WMS - Constructing Terraces & Diversions (TX)"|147854
+"WMS - Drainage (OH)"|185714
+"WMS - Excavated Ponds (Aquifer-fed) (OH)"|104902
+"WMS - Grape Production with Drip Irrigation (TX)"|1239
+"WMS - Irrigation Suitability (NM)"|61758
+"WMS - Irrigation, Micro (subsurface drip) (VT)"|22884
+"WMS - Irrigation, Surface (level)"|5544848
+"WMS - Pond Reservoir Area (MI)"|78435
+"WMS - Pond Reservoir Area (VT)"|23109
+"WMS - Sprinkler Irrigation (MT)"|281932
+"WMS - Sprinkler Irrigation RDC (IL)"|86549
+"WMS - Subsurface Drains - Performance (VT)"|16078
+"WMS - Subsurface Water Management, Outflow Quality"|3617922
+"WMS - Surface Water Management, System"|3728214
+"WMS-Subsurface Water Management, Performance (ND)"|108650
+"AGR - Filter Strips (TX)"|168002
+"AGR - Hops Site Suitability (ID)"|534981
+"AGR - Mulch Till (TX)"|134384
+"AGR - Nitrate Leaching Potential, Nonirrigated (MT)"|262461
+"AGR - Nitrate Leaching Potential, Nonirrigated (WV)"|26254
+"AGR - No Till (VT)"|30708
+"AGR - Oats Yield (MT)"|200484
+"AGR - Pesticide Loss Potential-Leaching"|964408
+"AGR - Pesticide Loss Potential-Leaching (NE)"|161624
+"AGR - Rutting Hazard =< 10,000 Pounds per Wheel (TX)"|700
+"AGR - S. Highbush Blueberry Suitability MLRA 153 (SC)"|153767
+"AGR - Wind Erosion Potential (NE)"|22114
+"AGR-Available Water Capacity (ND)"|85084
+"AGR-Physical Limitations (ND)"|87345
+"AGR-Sodicity (ND)"|95642
+"AGR-Wind Erosion (ND)"|96534
+"AWM - Irrigation Disposal of Wastewater (DE)"|10887
+"AWM - Land App of Municipal Sewage Sludge (DE)"|10418
+"AWM - Land App of Municipal Sewage Sludge (MD)"|45659
+"AWM - Land Application of Milk (CT)"|16581
+"AWM - Land Application of Municipal Biosolids, spring (OR)"|123748
+"AWM - Land Application of Municipal Sewage Sludge"|5150373
+"AWM - Land Application of Municipal Sewage Sludge (OH)"|204276
+"AWM - Land Application of Municipal Sewage Sludge (VT)"|30367
+"AWM - Large Animal Disposal, Pit (MN)"|144190
+"AWM - Manure and Food Processing Waste"|5547615
+"AWM - Manure and Food Processing Waste (VT)"|37976
+"AWM - Rapid Infil Disposal of Wastewater (MD)"|42676
+"AWM - Rapid Infiltration Disposal of Wastewater (VT)"|31610
+"AWM - Slow Rate Process Treatment of Wastewater (VT)"|40231
+"BLM - Chaining Suitability"|604515
+"BLM - Fugitive Dust Resistance"|1151313
+"BLM - Soil Restoration Potential"|1067197
+"BLM - Yellow Star-thistle Invasion Susceptibility"|1797725
+"CLASS RULE - Depth to non-lithic bedrock (5 classes) (NPS)"|633
+"CLR-cropland limitation for corn and soybeans (IN)"|96725
+"Commodity Crop Productivity Index (Corn) (WI)"|57902
+"CPI - Grass Hay, NIRR - Klamath Valleys and Basins (OR)"|177151
+"CPI - Potatoes Productivity Index (AK)"|107331
+"CPI - Potatoes, IRR - Eastern Idaho Plateaus (ID)"|40195
+"CPI - Small Grains, NIRR - Palouse Prairies (ID)"|13516
+"DHS - Emergency Animal Mortality Disposal by Shallow Burial"|3470568
+"DHS - Rubble and Debris Disposal, Large-Scale Event"|6132820
+"DHS -Catastrophic Mortality, Large Animal Disposal, Pit (TX)"|87683
+"ENG - Aquifer Assessment - 7081 (MN)"|66642
+"ENG - Catastrophic Mortality, Large Animal Disposal Tr (IA)"|119017
+"ENG - Construction Materials - Gravel Source (MN)"|321694
+"ENG - Construction Materials; Gravel Source (MI)"|112531
+"ENG - Construction Materials; Gravel Source (OR)"|103479
+"ENG - Construction Materials; Reclamation"|5313871
+"ENG - Construction Materials; Reclamation (OH)"|194629
+"ENG - Construction Materials; Sand Source"|3650203
+"ENG - Construction Materials; Sand Source (AK)"|69357
+"ENG - Construction Materials; Sand Source (ID)"|68454
+"ENG - Construction Materials; Sand Source (IN)"|64804
+"ENG - Construction Materials; Sand Source (OH)"|117964
+"ENG - Construction Materials; Topsoil"|5169182
+"ENG - Construction Materials; Topsoil (WA)"|127741
+"ENG - Ground-based Solar Arrays, Soil-based Anchor Systems"|6120969
+"ENG - Local Roads and Streets"|4368108
+"ENG - New Ohio Septic Rating (OH)"|123250
+"ENG - Sanitary Landfill (Trench) (OH)"|146870
+"ENG - Septic Tank Absorption Fields (AK)"|131523
+"ENG - Septic Tank Absorption Fields (DE)"|6430
+"ENG - Septic Tank Absorption Fields (NY)"|177185
+"ENG - Sewage Lagoons (OH)"|166765
+"ENG - Shallow Excavations (AK)"|91554
+"ENG - Shallow Excavations (MI)"|122049
+"ENG - TCEQ Soil Group (TX)"|1841
+"ENG - Unpaved Local Roads and Streets"|4871980
+"FOR - Black Walnut Suitability Index (MO)"|661108
+"FOR - Conservation Tree and Shrub Groups (TX)"|178144
+"FOR - Construction Limitations - Haul Roads/Log Landing (OH)"|160167
+"FOR - Construction Limitations For Haul Roads (MI)"|81136
+"FOR - Hand Planting Suitability (ME)"|16677
+"FOR - Harvest Equipment Operability (MD)"|29882
+"FOR - Harvest Equipment Operability (OH)"|118998
+"FOR - Harvest Equipment Operability (VT)"|17109
+"FOR - Longleaf Pine Suitability"|463608
+"FOR - Mechanical Planting Suitability"|3533583
+"FOR - Mechanical Planting Suitability (ME)"|27911
+"FOR - Mechanical Planting Suitability, MO13 (DE)"|6732
+"FOR - Potential Erosion Hazard (Off-Road/Off-Trail)"|2311970
+"FOR - Potential Erosion Hazard (Road/Trail) (PIA)"|14831
+"FOR - Potential Seedling Mortality (VT)"|13334
+"FOR - Potential Windthrow Hazard (NY)"|85068
+"FOR - Potential Windthrow Hazard (VT)"|15031
+"FOR - Puddling Potential (WA)"|108021
+"FOR - Road Suitability (Natural Surface)"|4698466
+"FOR - Road Suitability (Natural Surface) (OH)"|141040
+"FOR - Road Suitability (Natural Surface) (OR)"|91081
+"FOR - Rutting Hazard by Season"|556036
+"FOR - Shortleaf pine littleleaf disease susceptibility"|116468
+"FOR - Shortleaf Pine Suitability"|1402245
+"FOR - Soil Compactibility Risk"|1776420
+"FOR - Soil Rutting Hazard (ME)"|20002
+"FOR - Windthrow Hazard"|3594591
+"FOR-Construction Limitations for Haul Roads/Log Landings(ME)"|24473
+"FOTG - Indiana Slippage Potential (IN)"|106481
+"Gravity Full Depth Septic System (DE)"|30505
+"GRL - Fencing, Post Depth =<36 inches"|4935802
+"GRL - NV range seeding (Wind C = 50) (NV)"|234380
+"GRL - Ranch Access Roads (TX)"|103856
+"GRL - Rangeland Roller Chopping (TX)"|62453
+"Ground Penetrating Radar Penetration"|2826315
+"Ground-based Solar Arrays_bedrock(ME)"|13785
+"Ground-based Solar Arrays_bedrock_slope_ballast(ME)"|24301
+"Hybrid Wine Grape Varieties Site Desirability (Short)"|1114924
+"ISDH Septic Tank Interpretation (IN)"|71902
+"Land Application of Municipal Sewage Sludge (PA)"|53853
+"MIL - Helicopter Landing Zones (DOD)"|2815884
+"MIL - Trafficability Veh. Type 2 1-pass wet season (DOD)"|5181554
+"MIL - Trafficability Veh. Type 5 50-passes wet season (DOD)"|5217291
+"MIL - Trafficability Veh. Type 5 dry season (DOD)"|3035043
+"MIL - Trafficability Veh. Type 7 1-pass wet season (DOD)"|5467152
+"NCCPI - National Commodity Crop Productivity Index (Ver 3.0)"|6990990
+"REC - Camp and Picnic Areas (AK)"|98379
+"REC - Picnic Areas (CT)"|15027
+"REC - Playgrounds (CT)"|18111
+"SAS - CMECS Substrate Subclass"|63165
+"Septic System Drip Irrigation (Alternate) (PA)"|75063
+"Septic System Free Access Sand Filter w/Drip Irrigation (PA)"|75063
+"Hybrid Wine Grape Varieties Site Desirability (Long)"|1067417
+"Low Pressure Pipe Septic System (DE)"|26145
+"MIL - Bivouac Areas (DOD)"|3507302
+"MIL - Excavations Crew-Served Weapon Fighting Position (DOD)"|4053158
+"MIL - Excavations for Individual Fighting Position (DOD)"|2113494
+"MIL - Trafficability Veh. Type 1 50-passes wet season (DOD)"|5181554
+"MIL - Trafficability Veh. Type 2 50-passes wet season (DOD)"|5181554
+"MIL - Trafficability Veh. Type 4 1-pass wet season (DOD)"|5049370
+"MIL - Trafficability Veh. Type 4 50-passes wet season (DOD)"|5049370
+"MIL - Trafficability Veh. Type 6 50-passes wet season (DOD)"|5418972
+"MIL - Trafficability Veh. Type 7 50-passes wet season (DOD)"|5465494
+"MIL - Trafficability Veh. Type 7 dry season (DOD)"|3817667
+"NCCPI - Irrigated National Commodity Crop Productivity Index"|872715
+"Nitrogen Loss Potential (ND)"|178553
+"Potential Windthrow Hazard (TN)"|46066
+"REC - Foot and ATV Trails (AK)"|85907
+"REC - Playgrounds (AK)"|102735
+"Reclamation Suitability (ND)"|137726
+"RSK-risk assessment for manure application (OH)"|190808
+"SAS - CMECS Substrate Origin"|63165
+"SAS - CMECS Substrate Subclass/Group/Subgroup"|63165
+"SAS - Mooring Anchor - Deadweight"|91704
+"Septic System A/B Soil System (Alternate) (PA)"|76239
+"Septic System CO-OP RFS III w/Spray Irrigation (PA)"|69784
+"Septic System Dual Field Trench (conventional) (WV)"|19537
+"Septic System Elevated Field (alternative) (WV)"|19336
+"Septic System In Ground Trench (conventional) (PA)"|99039
+"Septic System In Ground Trench (conventional) (WV)"|20219
+"Septic System Low Pressure Pipe (alternative) (WV)"|17750
+"Septic System Mound (alternative) (WV)"|15611
+"Septic System Peat Based Option2 w/Spray Irrigation (PA)"|69784
+"Septic System Steep Slope Mound (alternative) (WV)"|17572
+"SOH - Concentration of Salts- Soil Surface"|5555842
+"SOH - Soil Susceptibility to Compaction"|6943251
+"Soil Habitat for Saprophyte Stage of Coccidioides"|1205858
+"Soil Vegetative Groups (CA)"|45654
+"TROP - Cacao Suitability"|26001
+"TROP - Guineagrass Suitability"|26641
+"Unlined Retention Systems"|184973
+"URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)"|142354
+"URB - Commercial Metal Buildings w/o Concrete Slab (TX)"|1068
+"URB - Dwellings on Concrete Slab2 (TX)"|1263
+"URB - Lawns and Ornamental Plantings2 (TX)"|2038
+"URB - Urban Residential Development on Concrete Slab (TX)"|1466
+"URB/REC - Picnic Areas (GA)"|17256
+"URB/REC - Picnic Areas (MI)"|107135
+"URB/REC - Picnic Areas (OH)"|170544
+"Vinifera Wine Grape Site Desirability (Short)"|1104669
+"WAQ - Soil Pesticide Solution Runoff Potential (TX)"|383
+"WLF - Burrowing Mammals & Reptiles (TX)"|97146
+"WLF - Desert Tortoise (CA)"|341253
+"WLF - Domestic Grasses & Legumes for Food and Cover (TX)"|186972
+"WLF - Irrigated Grain & Seed Crops for Food & Cover (TX)"|200091
+"WMS - Excavated Ponds (Aquifer-fed)"|2860501
+"WMS - Excavated Ponds (Aquifer-fed) (VT)"|22914
+"WMS - Irrigation, General"|5645086
+"WMS - Irrigation, Micro (above ground)"|4253801
+"WMS - Irrigation, Micro (above ground) (VT)"|22121
+"WMS - Irrigation, Micro (subsurface drip)"|4553738
+"WMS - Irrigation, Sprinkler (general) (VT)"|25921
+"WMS - Pond Reservoir Area"|3139782
+"WMS - Pond Reservoir Area (OH)"|128158
+"WMS - Subsurface Water Management, System Installation"|4370093
+"Septic System In Ground Bed (conventional) (PA)"|99063
+"Septic System Peat Based Option1 (UV & At-Grade Bed)Alt (PA)"|76239
+"Septic System Peat Sys Opt3 w/Subsurface Sand Filter (PA)"|104002
+"Septic System Sand Mound Bed or Trench (PA)"|79130
+"Septic System Shallow Placement Pressure Dosed (Alt.) (PA)"|95620
+"SOH - Aggregate Stability (ND)"|38047
+"SOH - Agricultural Organic Soil Subsidence"|6923185
+"SOH - Dynamic Soil Properties Response to Biochar"|6827418
+"SOH - Organic Matter Depletion"|6909181
+"SOIL HEALTH ASSESSMENT (NJ)"|42862
+"Surface Runoff Class (CA)"|70012
+"TROP - Coffee (Arabica) Suitability"|26040
+"URB - Commercial Brick Bldg; w/Reinforced Concrete Slab (TX)"|142354
+"URB - Reinforced Concrete Slab (TX)"|125878
+"URB/REC - Camp Areas"|4813894
+"URB/REC - Camp Areas (OH)"|171818
+"URB/REC - Off-Road Motorcycle Trails (OH)"|134222
+"URB/REC - Paths and Trails (OH)"|156478
+"URB/REC - Picnic Areas"|4729934
+"URB/REC - Playgrounds"|5226963
+"URB/REC - Playgrounds (GA)"|21416
+"Vinifera Wine Grape Site Desirability (Short to Medium)"|1215558
+"WLF - Irr. Domestic Grasses & Legumes for Food & Cover (TX)"|1986
+"WLF - Irrigated Freshwater Wetland Plants (TX)"|1980
+"WLF - Upland Coniferous Trees (TX)"|86187
+"WLF - Upland Deciduous Trees (TX)"|102665
+"WLF - Upland Desertic Shrubs & Trees (TX)"|155767
+"WLF - Upland Native Herbaceous Plants (TX)"|157577
+"WLF - Upland Shrubs & Vines (TX)"|162958
+"WLF-Soil Suitability - Karner Blue Butterfly (WI)"|173706
+"WMS - Drainage (IL)"|100970
+"WMS - Drainage - (MI)"|137921
+"WMS - Embankments, Dikes, and Levees"|4334797
+"WMS - Embankments, Dikes, and Levees (OH)"|166228
+"WMS - Grassed Waterways - (MI)"|99728
+"WMS - Irrigation, Sprinkler (general)"|4356376
+"WMS - Pond Reservoir Area (GA)"|14889
+"WMS-Subsurface Water Management, Installation (ND)"|132495
+"WMS-Subsurface Water Management, Outflow Quality (ND)"|104986
