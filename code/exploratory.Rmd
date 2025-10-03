@@ -50,6 +50,7 @@ ggplot(ia_CPI, aes(x = OCProdIdx, y = NCCPIx100)) +
 
 ```
 
+
 ```{r cpi_cor, dependson = "create_cpi", eval = FALSE, echo = FALSE}
 cor.test(ia_CPI$OCProdIdx, ia_CPI$NCCPIx100, method = "pearson")  # linear correlation
 cor.test(ia_CPI$OCProdIdx, ia_CPI$NCCPIx100, method = "spearman") # rank-based (non-parametric)
@@ -59,12 +60,23 @@ cor.test(ia_CPI$OCProdIdx, ia_CPI$NCCPIx100, method = "spearman") # rank-based (
 lm_cpi <- lm(NCCPIx100 ~ OCProdIdx, data = ia_CPI)
 summary(lm_cpi)
 
+```
+
+```{r cpi_lm, dependson = "create_cpi", eval = FALSE, echo = FALSE}
 ia_CPI$residuals <- residuals(lm_cpi)
 
 outliers <- ia_CPI[abs(ia_CPI$residuals) >2 * sd(ia_CPI$residuals),]
 
-outliers
+outliers %>%
+  group_by(DrainCls) %>%
+  summarise(
+    mean_CSR2 = mean(OCProdIdx),
+    mean_NCCPI = mean(NCCPIx100),
+    mean_diff = mean(cpi_diff),
+    count = n()
+  )
 ```
+
 
 ```{r low_agree, dependson = "create_cpi", eval = FALSE, echo = FALSE}
 threshold <- quantile(ia_CPI$cpi_diff, 0.90)
@@ -77,9 +89,33 @@ low_agree %>%
             mean_diff = mean(cpi_diff),
             n=n())
 
-ggplot(ia_CPI, aes(x = OCProdIdx, y = NCCPIx100, color = cpi_diff > 0.2)) +
+```
+
+```{r explore_cpi, dependson="create_cpi"}
+
+ggplot(ia_CPI, aes(x = OCProdIdx, y = NCCPIx100, color = cpi_diff > 1)) +
   geom_point() +
   geom_abline(slope = 1, intercept = 0, linetype = "dashed") +
   labs(title = "CSR2 vs NCCPI: Highlighting Low Agreement Points",
        color = "Low Agreement")
+
+
+g02 <- ggplot(ia_CPI, 
+           aes(x = DrainCls, y = cpi_diff, color = cpi_diff > 0.2)) + 
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
+g02
+
+g1 <- ggplot(ia_CPI, 
+           aes(x = DrainCls, y = cpi_diff, color = cpi_diff > 1)) + 
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
+g1
+
+g5 <- ggplot(ia_CPI, 
+           aes(x = DrainCls, y = cpi_diff, color = cpi_diff > 5)) + 
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
+g5
+
 ```

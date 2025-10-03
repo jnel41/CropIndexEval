@@ -1,0 +1,72 @@
+---
+title: "Download SSURGO data by state"
+author: "J. Stephenson"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+---
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE,
+                      cache = TRUE)#,
+                      #fig.width = 12,
+                      #fig.height = 12)
+
+library(soilDB)
+#library(FedData)
+library(DBI)
+library(RSQLite)
+library(sf)
+library(terra)
+library(dplyr)
+
+options(width = 200)
+
+dir.create("fig", showWarnings = FALSE)
+```
+
+Download SSURGO data directly from USDA Web Soil Survey. States of interest include those with their own soil productivity index. Create a local SSURGO database using SQLite and connect to the newly create GeoPackage database. 
+
+```{r download_soils}
+ia_ssurgo <- downloadSSURGO(WHERE = "areasymbol LIKE 'IA%'")
+
+gpkg_path <- file.path(tempdir(), "ssurgo_ia.gpkg")
+createSSURGO(gpkg_path, exdir=dirname(ia_ssurgo[1]))
+
+con <- dbConnect(RSQLite::SQLite(), gpkg_path)
+
+```
+
+Explore the dataset and join tables of interest. 
+
+```{r explore_soils, dependson="download_soils"}
+dbListTables(con)
+mapunit_data <- dbGetQuery(con, "SELECT * FROM mapunit")
+#mapunit_unique <- mapunit_data %>%
+#  distinct(mukey, .keep_all = TRUE)
+
+mupolygons = st_read(con, query = "SELECT * FROM mupolygon")
+
+mu_merge <- merge(mupolygons, mapunit_data, by = "mukey", all.x = TRUE )
+
+print(mu_merge)
+
+```
+
+
+
+```{r explore_cpi, dependson="create_cpi"}
+ia_spatial <- ia_ssurgo$spatial
+ia_tabular <- ia_ssurgo$tabular
+
+```
+
+
+```{r explore_cpi, dependson="create_cpi"}
+dbDisconnect(con)
+
+```
+
