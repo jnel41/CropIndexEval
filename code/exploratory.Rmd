@@ -30,7 +30,8 @@ dir.create("fig", showWarnings = FALSE)
 ## Generate dataframe
 ia_CPI <- read_csv("../data/raw/ia_cpi.csv") %>%
   mutate(NCCPIx100 = NCCPIall * 100,
-         cpi_diff = abs(OCProdIdx - NCCPIx100))
+         cpi_diff = abs(OCProdIdx - NCCPIx100),
+         state = "IA")
 
 
 ```
