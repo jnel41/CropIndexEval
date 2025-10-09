@@ -9,9 +9,10 @@ output:
     toc: yes
 ---
 
-```{r setup}
+```{r setup, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
-                      cache = TRUE)#,
+                      cache = TRUE, 
+                      message = FALSE)#,
                       #fig.width = 12,
                       #fig.height = 12)
 
@@ -35,7 +36,8 @@ ia_CPI <- read_csv("../data/raw/ia_cpi.csv") %>%
 
 
 ```
-```{r explore_cpi, dependson="create_cpi"}
+
+```{r explore_cpi 2, dependson="create_cpi"}
 ## explore summary statistics of dataset
 str(ia_CPI)
 summary(ia_CPI)
@@ -43,7 +45,7 @@ summary(ia_CPI)
 ```
 
 
-```{r explore_cpi, dependson="create_cpi"}
+```{r explore_cpi 3, dependson="create_cpi"}
 ggplot(ia_CPI, aes(x = OCProdIdx, y = NCCPIx100)) +
   geom_point(alpha = 0.6) +
   geom_smooth(method = "lm", color = "blue") +
@@ -63,7 +65,7 @@ summary(lm_cpi)
 
 ```
 
-```{r cpi_lm, dependson = "create_cpi", eval = FALSE, echo = FALSE}
+```{r cpi_lm 2, dependson = "create_cpi", eval = FALSE, echo = FALSE}
 ia_CPI$residuals <- residuals(lm_cpi)
 
 outliers <- ia_CPI[abs(ia_CPI$residuals) >2 * sd(ia_CPI$residuals),]
