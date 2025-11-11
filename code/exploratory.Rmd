@@ -33,21 +33,51 @@ ia_CPI <- read_csv("../data/raw/ia_cpi.csv") %>%
          cpi_diff = abs(OCProdIdx - NCCPIx100),
          state = "IA")
 
+il_CPI <- read_csv("../data/raw/il_cpi.csv") %>%
+  mutate(NCCPIx100 = NCCPIall * 100,
+         cpi_diff = abs(OCProdIdx - NCCPIx100),
+         state = "IL")
+
+in_CPI <- read_csv("../data/raw/in_cpi.csv") %>%
+  mutate(NCCPIx100 = NCCPIall * 100,
+         cpi_diff = abs(OCProdIdx - NCCPIx100),
+         state = "IN")
+
+mn_CPI <- read_csv("../data/raw/mn_cpi.csv") %>%
+  mutate(NCCPIx100 = NCCPIall * 100,
+         cpi_diff = abs(OCProdIdx - NCCPIx100),
+         state = "MN")
+
+oh_CPI <- read_csv("../data/raw/oh_cpi.csv") %>%
+  mutate(NCCPIx100 = NCCPIall * 100,
+         cpi_diff = abs(OCProdIdx - NCCPIx100),
+         state = "OH")
+
+wi_CPI <- read_csv("../data/raw/wi_cpi.csv") %>%
+  mutate(NCCPIx100 = NCCPIall * 100,
+         cpi_diff = abs(OCProdIdx - NCCPIx100),
+         state = "WI")
+
+CPI_df <- rbind(ia_CPI, il_CPI, in_CPI, mn_CPI, oh_CPI, wi_CPI)
+
+CPI_df50 <- filter(CPI_df, NCCPIx100 < 50)
 
 ```
+
+
 ```{r explore_cpi, dependson="create_cpi"}
 ## explore summary statistics of dataset
-str(ia_CPI)
-summary(ia_CPI)
+str(CPI_df50)
+summary(CPI_df50)
 
 ```
 
 
 ```{r explore_cpi, dependson="create_cpi"}
-ggplot(ia_CPI, aes(x = OCProdIdx, y = NCCPIx100)) +
+ggplot(CPI_df50, aes(x = OCProdIdx, y = NCCPIx100, color = state)) +
   geom_point(alpha = 0.6) +
   geom_smooth(method = "lm", color = "blue") +
-  labs(title = "CSR2 vs NCCPI", x = "CSR2", y = "NCCPI")
+  labs(title = "CSR2 vs State-level Index", x = "State-level Index", y = "NCCPI")
 
 ```
 
@@ -55,11 +85,42 @@ ggplot(ia_CPI, aes(x = OCProdIdx, y = NCCPIx100)) +
 ```{r cpi_cor, dependson = "create_cpi", eval = FALSE, echo = FALSE}
 cor.test(ia_CPI$OCProdIdx, ia_CPI$NCCPIx100, method = "pearson")  # linear correlation
 cor.test(ia_CPI$OCProdIdx, ia_CPI$NCCPIx100, method = "spearman") # rank-based (non-parametric)
+
+cor.test(il_CPI$OCProdIdx, il_CPI$NCCPIx100, method = "pearson")  # linear correlation
+cor.test(il_CPI$OCProdIdx, il_CPI$NCCPIx100, method = "spearman") # rank-based (non-parametric)
+
+cor.test(in_CPI$OCProdIdx, in_CPI$NCCPIx100, method = "pearson")  # linear correlation
+cor.test(in_CPI$OCProdIdx, in_CPI$NCCPIx100, method = "spearman") # rank-based (non-parametric)
+
+cor.test(mn_CPI$OCProdIdx, mn_CPI$NCCPIx100, method = "pearson")  # linear correlation
+cor.test(mn_CPI$OCProdIdx, mn_CPI$NCCPIx100, method = "spearman") # rank-based (non-parametric)
+
+cor.test(oh_CPI$OCProdIdx, oh_CPI$NCCPIx100, method = "pearson")  # linear correlation
+cor.test(oh_CPI$OCProdIdx, oh_CPI$NCCPIx100, method = "spearman") # rank-based (non-parametric)
+
+cor.test(wi_CPI$OCProdIdx, wi_CPI$NCCPIx100, method = "pearson")  # linear correlation
+cor.test(wi_CPI$OCProdIdx, wi_CPI$NCCPIx100, method = "spearman") # rank-based (non-parametric)
+
 ```
 
 ```{r cpi_lm, dependson = "create_cpi", eval = FALSE, echo = FALSE}
-lm_cpi <- lm(NCCPIx100 ~ OCProdIdx, data = ia_CPI)
-summary(lm_cpi)
+lm_ia <- lm(NCCPIx100 ~ OCProdIdx, data = ia_CPI)
+summary(lm_ia)
+
+lm_il <- lm(NCCPIx100 ~ OCProdIdx, data = il_CPI)
+summary(lm_il)
+
+lm_in <- lm(NCCPIx100 ~ OCProdIdx, data = in_CPI)
+summary(lm_in)
+
+lm_mn <- lm(NCCPIx100 ~ OCProdIdx, data = mn_CPI)
+summary(lm_mn)
+
+lm_oh <- lm(NCCPIx100 ~ OCProdIdx, data = oh_CPI)
+summary(lm_oh)
+
+lm_wi <- lm(NCCPIx100 ~ OCProdIdx, data = wi_CPI)
+summary(lm_wi)
 
 ```
 
@@ -76,6 +137,17 @@ outliers %>%
     mean_diff = mean(cpi_diff),
     count = n()
   )
+
+summary(outliers$)
+```
+
+```{r cpi_lm, dependson = "create_cpi", eval = FALSE, echo = FALSE}
+ggplot(ia_cpi, aes(x = OCProdIdx, y = NCPPIx100)) +
+  geom_point(alpha = 0.4) +
+  geom_point(data = outliers, color = "red", size = 2) +
+  geomabline(slope = 2, intercept = 0, linetype = "dashed") +
+  labs(title = CSR2 vs NCCPI: Outliers)
+
 ```
 
 
@@ -120,3 +192,4 @@ g5 <- ggplot(ia_CPI,
 g5
 
 ```
+

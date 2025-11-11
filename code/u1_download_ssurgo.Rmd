@@ -45,6 +45,12 @@ Explore the dataset and join tables of interest.
 ```{r explore_soils, dependson="download_soils"}
 dbListTables(con)
 mapunit_data <- dbGetQuery(con, "SELECT * FROM mapunit")
+components <- dbGetQuery(con, "SELECT * FROM component")
+muaggatt <- dbGetQuery(con, "SELECT * FROM muaggatt")
+muinterp <- dbGetQuery(con, "SELECT * FROM muinterp")
+mutext <- dbGetQuery(con, "SELECT * FROM mutext")
+cocropyld <- dbGetQuery(con, "SELECT * FROM cocropyld")
+mucropyld <- dbGetQuery(con, "SELECT * FROM mucropyld")
 #mapunit_unique <- mapunit_data %>%
 #  distinct(mukey, .keep_all = TRUE)
 
@@ -59,8 +65,9 @@ print(mu_merge)
 
 
 ```{r explore_cpi, dependson="create_cpi"}
-ia_spatial <- ia_ssurgo$spatial
-ia_tabular <- ia_ssurgo$tabular
+ia_mu <- ia_ssurgo$mapunit
+ia_comp <- ia_ssurgo$component
+ia_chorizon <- ia_ssurgo$chorizon
 
 ```
 
